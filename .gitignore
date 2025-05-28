@@ -1,0 +1,30 @@
+# === Rust build artifacts ===
+/target/
+/**/*.rs.bk
+
+# === wasm32 artifacts (if you ever build straight into a wasm32 directory) ===
+/wasm32-unknown-unknown/
+
+# === Node / npm ===
+/node_modules/
+/pkg/node_modules/
+
+# === NPM‐pack / dist outputs (if you ever bundle your JS) ===
+/dist/
+/build/
+
+# === IDE / editor directories ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === Misc temp files ===
+*.log
+*.tmp
+*~  
+*.swp

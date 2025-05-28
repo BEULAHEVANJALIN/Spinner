@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Spinner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="left-panel">
+    <div id="wheel-container">
+      <canvas id="wheel" width="800" height="800"></canvas>
+      <div id="pointer"></div>
+    </div>
+    <button id="spin">Spin</button>
+  </div>
+
+  <div class="right-panel">
+    <div class="box">
+      <label for="names-input">Enter Names:</label>
+      <textarea id="names-input" placeholder="One name per line or comma separated…"></textarea>
+    </div>
+    <div class="box">
+      <label for="winners-list">Selected ones:</label>
+      <textarea id="winners-list" placeholder="Selected names appear here…"></textarea>
+    </div>
+  </div>
+
+  <div id="modal-overlay" class="hidden">
+    <div id="modal-box">
+      <p id="modal-message"></p>
+      <button id="modal-close">OK</button>
+    </div>
+  </div>
+
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
