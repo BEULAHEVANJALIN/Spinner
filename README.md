@@ -87,11 +87,11 @@ In your HTML:
 
 Use the `Spinner` API:
 
-* `new Spinner(names: string[])`  – create a new wheel
-* `spinner.start()`               – kick off the spin
-* `spinner.update()`              – advance animation
-* `spinner.rotation(): number`    – current wheel angle (radians)
-* `spinner.velocity(): number`    – current spin speed (radians/frame)
+* `new Spinner(names: string[])`  - create a new wheel
+* `spinner.start()`               - kick off the spin
+* `spinner.update()`              - advance animation
+* `spinner.rotation(): number`    - current wheel angle (radians)
+* `spinner.velocity(): number`    - current spin speed (radians/frame)
 
 ---
 
