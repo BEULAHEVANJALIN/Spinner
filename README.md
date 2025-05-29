@@ -53,7 +53,7 @@ This compiles `src/lib.rs` into `pkg/spinner_bg.wasm` and generates the JS bindi
 cd static && python3 -m http.server 8000
 ```
 
-Then open your browser at [http://localhost:8000/index.html](http://localhost:8000/index.html).  You should see:
+Then open your browser at [http://localhost:8000/static/index.html](http://localhost:8000/static/index.html).  You should see:
 
 1. **Wheel canvas** on the left
 2. **Textareas** on the right to enter names & view selected people
