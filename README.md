@@ -39,7 +39,7 @@ A lightweight Rust + WASM based spinning roulette widget.  Input your own list 
 
 ```bash
 # from the repo root
-wasm-pack build --target web --out-dir pkg
+wasm-pack build --target web --out-dir static/pkg
 ```
 
 This compiles `src/lib.rs` into `pkg/spinner_bg.wasm` and generates the JS bindings in `pkg/spinner.js`, plus TypeScript definitions.
