@@ -132,4 +132,4 @@ document.addEventListener("DOMContentLoaded", async () => {
     spinner.start();
     requestAnimationFrame(animate);
   });
-})();
+});
